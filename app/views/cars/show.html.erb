@@ -3,6 +3,7 @@
 <h1><%= @car.make %></h1>
 <h2><%= @car.modelname %></h2>
 <h3>Released in <%= @car.year %></h3>
+<h3>Made in <%= @car.country_id %></h3>
 
 <%= link_to 'Edit', edit_car_path(@car) %> |
 <%= link_to 'Back', cars_path %>
