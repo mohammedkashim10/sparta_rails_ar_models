@@ -1,4 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<h1><%= @country.name %></h1>
+<h2>Capital city is <%= @country.capcity %></h2>
+
 <%= link_to 'Edit', edit_country_path(@country) %> |
 <%= link_to 'Back', countries_path %>

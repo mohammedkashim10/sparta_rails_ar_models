@@ -11,6 +11,19 @@
     </div>
   <% end %>
 
+  <div>
+    <%= form.label :make %>
+    <%= form.text_field :make %>
+  </div>
+  <div>
+    <%= form.label :modelname %>
+    <%= form.text_field :modelname %>
+  </div>
+  <div>
+    <%= form.label :year %>
+    <%= form.number_field :year %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
