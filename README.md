@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+Build a Rails app with two connecting resources
 
-Things you may want to cover:
+### Technologies used
+* Ruby
+* Rails
+* SCSS
+* Atom text editor
 
-* Ruby version
+### How to download
+1. Link to the [GitHub repository](https://github.com/mohammedkashim10/sparta_rails_ar_models)
+2. Click on 'Clone or download' and copy the SSH key
+3. In your terminal, in your desired location, carry out the command 'git clone -SSH key-'
+4. Install Ruby 2.5 and Rails
 
-* System dependencies
+### Challenges
+Displaying the linked resource as a column in the first resource.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Learning points
+Understanding the flow of processes such as 'new' and 'create'. Use of validation statements in forms to ensure criteria are met.

@@ -10,6 +10,7 @@ class CarsController < ApplicationController
   # GET /cars/1
   # GET /cars/1.json
   def show
+    @car = Car.find(params[:id])
   end
 
   # GET /cars/new
@@ -19,6 +20,7 @@ class CarsController < ApplicationController
 
   # GET /cars/1/edit
   def edit
+    @car = Car.find(params[:id])
   end
 
   # POST /cars
@@ -69,6 +71,6 @@ class CarsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def car_params
-      params.fetch(:car, {})
+      params.require(:car).permit(:make, :modelname, :year, :country_id, :confirmation)
     end
 end

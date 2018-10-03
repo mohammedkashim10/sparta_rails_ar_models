@@ -11,6 +11,28 @@
     </div>
   <% end %>
 
+  <div>
+    <%= form.label :make %>
+    <%= form.text_field :make %>
+  </div>
+  <div>
+    <%= form.label :modelname %>
+    <%= form.text_field :modelname %>
+  </div>
+  <div>
+    <%= form.label :year %>
+    <%= form.number_field :year %>
+  </div>
+  <div>
+    <%= form.label :country_id %>
+    <%= form.number_field :country_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :confirmation %>
+    <%= form.check_box :confirmation %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
